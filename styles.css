@@ -1,0 +1,33 @@
+nav {
+  background-color: #1a1a1a; /*Gray background ig*/
+  padding: 20px 40px;
+  display: flex; /*Displays these contents side by side*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1{
+  color: red;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;   gap: 40px;
+}
+
+nav ul li{
+  cursor: pointer;
+}
+
+nav ul li:hover{
+  color: red;
+  transition: color 0.2s ease;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
