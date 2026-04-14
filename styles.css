@@ -10,7 +10,14 @@ nav h1{
   color: red;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Sekuya', system-ui;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 img{
+  width: 100px;
+  padding: 10px;
 }
 
 nav ul{
