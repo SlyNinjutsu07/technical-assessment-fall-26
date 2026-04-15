@@ -1,43 +1,48 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <head>
-    <html lang="en">
-    <title>Ferrari Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sekuya&family=Share+Tech&display=swap" rel="stylesheet">
+  <html lang="en">
+  <title>Ferrari Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sekuya&family=Share+Tech&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
+  <nav>
 
-        <h1>
-          <img src="images/scuederia-removebg-preview.png" alt="Scuderia Logo">
-          Scuderia Ferrari
-        </h1>
-        <ul>
-            <li onclick="showView('home')">Home</li>
-            <li onclick="showView('results')">Race Results</li>
-            <li onclick="showView('stats')">Statistics</li>
-        </ul>
-    </nav>
+    <h1>
+      <img src="images/scuederia-removebg-preview.png" alt="Scuderia Logo">
+      Scuderia Ferrari
+    </h1>
+    <ul>
+      <li onclick="showView('home')">Home</li>
+      <li onclick="showView('results')">Race Results</li>
+      <li onclick="showView('stats')">Statistics</li>
+    </ul>
+  </nav>
 
-    <!--About-->
-    <div id="home" class="view">
-        <h2>Ferrari</h2>
-        <p class="subtitle">The most storied team in Formula 1's history</p>
-        <p class="about">Since 1947, Ferrari has been building cars destined to win on the track and break records</p>
+  <!--About-->
+  <div id="home" class="view">
+    <div id="glass">
+      <h2>Ferrari</h2>
+      <p class="subtitle">The most storied team in Formula 1's history</p>
+      <div class="about">
+        <p>Since 1947, Ferrari has been building cars destined to win on the track and break records</p>
+        <p>About</p>
+      </div>
     </div>
+  </div>
 
-    <!--Results-->
-    <div id="results" class="view">
-        <h2>Race Results</h2>
-    </div>
+  <!--Results-->
+  <div id="results" class="view">
+    <h2>Race Results</h2>
+  </div>
 
-    <!--Results-->
-    <div id="stats" class="view">
-        <h2>Statistics</h2>
-    </div>
+  <!--Results-->
+  <div id="stats" class="view">
+    <h2>Statistics</h2>
+  </div>
 
-    
+
   <script src="script.js"></script>
 </body>
