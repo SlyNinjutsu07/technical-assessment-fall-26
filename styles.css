@@ -4,6 +4,7 @@ nav {
   display: flex; /*Displays these contents side by side*/
   justify-content: space-between;
   align-items: center;
+  border-bottom: 5px solid red;
 }
 
 nav h1{
@@ -26,12 +27,43 @@ nav ul{
 }
 
 nav ul li{
+  font-family: "Share Tech", sans-serif;
   cursor: pointer;
 }
 
 nav ul li:hover{
   color: red;
   transition: color 0.2s ease;
+}
+
+div h2 {
+  font-family: 'Sekuya', system-ui;
+  font-size: 20px;
+}
+
+.view {
+  padding: 60px 40px;
+}
+
+#home {
+  text-align: center;
+}
+
+#home h2 {
+  letter-spacing: 6px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+#home .about {
+  font-family: "Share Tech", sans-serif;
+}
+
+#home .subtitle {
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Share Tech", sans-serif;
+  letter-spacing: 2px;
 }
 
 body {
