@@ -26,13 +26,13 @@ Please check off which features you have implemented:
 - [ ] Includes a custom UI for Boolean search logic (e.g., AND/OR dropdowns or toggles).
 
 ## Screen Recording 
-**Link**: [paste it here]
+**Link**: [\[paste it here\]](https://drive.google.com/file/d/1e8-A6byC6HvdrtDZiyFdyj2w6A5uyUN1/view?usp=sharing)
 
 ## Written Portion
 1. **How did the project go? What parts of it did you most enjoy / find yourself good at?**
 
-[answer here]
+The project didn't go too bad, it was fairly enjoying as I was learning new things while Claude was helping me flesh out the webpage. I made sure that I had a firm understanding of what was going on as well, because some of the javascript was a bit confusing at first, but then I asked Claude for further clarification and it started to click for a bit. Unfortunately I didn't even manage to get into the main functionality of the webpage (I started a week late) and probably spent a bit too much time on designing the webpage rather than focusing on functionality calling the API and retriving race data.
 
 2. **Was this technical assessment what you expected? If you had another two weeks to work on it, what would you add or change?**
 
-[answer here]
+This technical assessment wasn't what I expected at first, I thought it would be leetcode style questions to be honest 😭, although it makes sense that it'd be about building a webpage since that is what we've BEEN doing throughout the JDT workshops. If I had another two weeks, I probably would've fleshed out a design plan on what I wanted to do with the website, since I've learned organizing a webpage could quickly pile up into a plethora of divs. Originally, given the time constraint, I would've focused on LeClerc's data only because Hamilton only recently came in for the 2026 F1 season (last was Carlos Sainz Jr.). However, with additional time, I would've liked to add Hamilton's and Sainz Jr.'s data as well since they were the most recent.
