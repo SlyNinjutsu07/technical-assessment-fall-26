@@ -10,7 +10,7 @@
 ## Core Requirements
 Please check off which features you have implemented:
 - [X] Built as a Single Page Application (SPA) without needing browser reloads.
-- [ ] An interesting and beautiful frontend design with a catchy title, apt description, and cool fonts/colors that looks good on any screen size.
+- [X] An interesting and beautiful frontend design with a catchy title, apt description, and cool fonts/colors that looks good on any screen size.
 - [ ] Successfully fetches and renders data from an external F1 API (e.g., Ergast, OpenF1).
 - [ ] Displays F1 data in a table that is capped at 20 rows per page.
 - [ ] Table includes functional Next/Previous arrows to navigate the dataset.
